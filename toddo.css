@@ -1,0 +1,77 @@
+
+#write{
+    width: 400px;
+    height: 20px;
+}
+body{
+    background: linear-gradient(to right, rgb(69,69,129), rgb(196,96,96));
+}
+#centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 48, 48);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.todo{
+    font-size: 30px;
+    padding: 1px;
+    font-weight: bold;
+    height: 20%;
+    width: 7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5px;
+    cursor: pointer; 
+    align-items: center;
+    background-color: rgba(201, 20, 201, 0.877);
+    border-radius: 10%;
+    border: none;
+}
+.todo:hover{
+    color: rgb(247, 238, 238);
+}
+
+.delBtn{
+    padding: 0.5rem;
+    background: #ff3700;
+    color: white;
+    border: none;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    
+}
+.checkBtn{
+    padding: 0.5rem;
+    background: #6bec7d;
+    color: white;
+    border: none;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.scratch{
+    text-decoration: line-through;
+    opacity: 0.6;
+    transform: scale(0.93)
+}
+.NewDiv{
+    margin: 5px auto;
+    background: rgb(252, 231, 204);
+    color: #081691;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    max-width: 70%;
+    text-transform: capitalize;
+}
